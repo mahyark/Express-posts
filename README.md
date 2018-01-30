@@ -1,15 +1,9 @@
-# Repo for Zell's CRUD, Express and MongoDB tutorial
+# Exam 2018 using Express
 
-- [Demo](https://crud-express-mongo.herokuapp.com)
-- [Tutorial](http://zell-weekeat.com/crud-express-mongodb)
+This exam was also about showing posts but with Express. 
 
-## Installation
+# Routes
+localhost:4000 is the start path
 
-1. Clone repo
-2. run `npm install` 
-
-## Usage 
-
-1. run `npm run dev`
-2. Navigate to `localhost:3000`
-3. Have fun ;)
+/posts -> You get to see all the post's titles and bodies.
+/search -> You can search a post by title and get to see its comments.
