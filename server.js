@@ -27,8 +27,8 @@ app.get('/posts', (req, res) => {
 		   console.log(post.title);
 		}*/
 
-		console.log(JSON.stringify(posts));
-   		res.render('posts.ejs', { posts: '' });
+		console.log(JSON.stringify(posts[2].title));
+   		res.render('posts.ejs', { posts: posts });
 	  }
 	  
 	});

@@ -10,9 +10,8 @@
 	<ul class='posts'>
 	  <% for(var i=0; i < posts.length; i++) {%>
 	    <li class='posts'>
-	      <span><%= posts[i].name %></span>
-	      <span><%= posts[i].description %></span><br /><br />
-	      <span><b>Price : </b><%= posts[i].price %></span>
+	      <span>Title: <%= posts[i].title %></span><br />
+	      <span>Body: <%= posts[i].body %></span>
 	    </li>
 	  <% } %>
 	</ul>
